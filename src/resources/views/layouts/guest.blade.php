@@ -6,7 +6,6 @@
     <title>@yield('title')</title>
 
     <link rel="stylesheet" href="{{ asset('css/common.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/attendance.css') }}">
     <link rel="stylesheet" href="{{ asset('css/register.css') }}">
 </head>
 <body>
@@ -17,13 +16,6 @@
         <div class="header__logo">
             <img src="{{ asset('images/COACHTECH.png') }}" alt="COACHTECH">
         </div>
-
-        <nav class="header__nav">
-            <a href="#">勤怠</a>
-            <a href="#">勤怠一覧</a>
-            <a href="#">申請</a>
-            <a href="#">ログアウト</a>
-        </nav>
 
     </div>
 </header>

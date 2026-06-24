@@ -1,0 +1,83 @@
+.staff-attendance {
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+.staff-attendance__title {
+    font-size: 30px;
+    font-weight: 700;
+
+    margin-bottom: 40px;
+    padding-left: 15px;
+
+    border-left: 8px solid #000;
+}
+
+.staff-attendance__month-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #fff;
+    border-radius: 8px;
+
+    padding: 15px 25px;
+    margin-bottom: 40px;
+}
+
+.staff-attendance__prev,
+.staff-attendance__next {
+    color: #666;
+    font-weight: 700;
+}
+
+.staff-attendance__month {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.staff-attendance__table-wrapper {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.staff-attendance__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.staff-attendance__table th,
+.staff-attendance__table td {
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.staff-attendance__table th {
+    color: #666;
+}
+
+.staff-attendance__table td a {
+    color: #000;
+    font-weight: 700;
+}
+
+.staff-attendance__button {
+    margin-top: 40px;
+    text-align: right;
+}
+
+.staff-attendance__button button {
+    width: 120px;
+    height: 45px;
+
+    border: none;
+    border-radius: 4px;
+
+    background: #000;
+    color: #fff;
+
+    font-weight: 700;
+    cursor: pointer;
+}

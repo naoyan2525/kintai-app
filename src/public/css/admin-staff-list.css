@@ -1,0 +1,42 @@
+.staff-list {
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+.staff-list__title {
+    font-size: 30px;
+    font-weight: 700;
+
+    margin-bottom: 40px;
+    padding-left: 15px;
+
+    border-left: 8px solid #000;
+}
+
+.staff-list__table-wrapper {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.staff-list__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.staff-list__table th,
+.staff-list__table td {
+    padding: 18px 24px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.staff-list__table th {
+    color: #666;
+    font-weight: 700;
+}
+
+.staff-list__table td a {
+    color: #000;
+    font-weight: 700;
+}

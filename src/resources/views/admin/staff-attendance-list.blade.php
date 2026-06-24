@@ -1,42 +1,42 @@
 @extends('layouts.admin')
 
-@section('title', '勤怠一覧')
+@section('title', 'スタッフ別勤怠一覧')
 
 @section('css')
-<link rel="stylesheet" href="{{ asset('css/admin-attendance-list.css') }}">
+<link rel="stylesheet" href="{{ asset('css/admin-staff-attendance-list.css') }}">
 @endsection
 
 @section('content')
 
-<div class="attendance-list">
+<div class="staff-attendance">
 
-    <h1 class="attendance-list__title">
-        2023年6月1日の勤怠
+    <h1 class="staff-attendance__title">
+        西玲奈さんの勤怠
     </h1>
 
-    <div class="attendance-list__date-nav">
+    <div class="staff-attendance__month-nav">
 
-        <a href="#" class="attendance-list__prev">
-            ← 前日
+        <a href="#" class="staff-attendance__prev">
+            ← 前月
         </a>
 
-        <div class="attendance-list__date">
-            📅 2023/06/01
+        <div class="staff-attendance__month">
+            📅 2023/06
         </div>
 
-        <a href="#" class="attendance-list__next">
-            翌日 →
+        <a href="#" class="staff-attendance__next">
+            翌月 →
         </a>
 
     </div>
 
-    <div class="attendance-list__table-wrapper">
+    <div class="staff-attendance__table-wrapper">
 
-        <table class="attendance-list__table">
+        <table class="staff-attendance__table">
 
             <thead>
                 <tr>
-                    <th>名前</th>
+                    <th>日付</th>
                     <th>出勤</th>
                     <th>退勤</th>
                     <th>休憩</th>
@@ -48,7 +48,7 @@
             <tbody>
 
                 <tr>
-                    <td>山田 太郎</td>
+                    <td>06/01(木)</td>
                     <td>09:00</td>
                     <td>18:00</td>
                     <td>1:00</td>
@@ -57,7 +57,7 @@
                 </tr>
 
                 <tr>
-                    <td>田中 花子</td>
+                    <td>06/02(金)</td>
                     <td>09:00</td>
                     <td>18:00</td>
                     <td>1:00</td>
@@ -65,10 +65,18 @@
                     <td><a href="#">詳細</a></td>
                 </tr>
 
+                <!-- 後でforeach化 -->
+
             </tbody>
 
         </table>
 
+    </div>
+
+    <div class="staff-attendance__button">
+        <button type="button">
+            CSV出力
+        </button>
     </div>
 
 </div>

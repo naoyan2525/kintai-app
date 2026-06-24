@@ -1,0 +1,88 @@
+.attendance-detail {
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+.attendance-detail__title {
+    font-size: 30px;
+    font-weight: 700;
+
+    margin-bottom: 40px;
+    padding-left: 15px;
+
+    border-left: 8px solid #000;
+}
+
+.attendance-detail__table {
+    width: 100%;
+
+    background: #fff;
+    border-radius: 8px;
+
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.attendance-detail__table th,
+.attendance-detail__table td {
+    padding: 28px 36px;
+    border-bottom: 1px solid #ddd;
+}
+
+.attendance-detail__table th {
+    width: 220px;
+    text-align: left;
+    color: #666;
+}
+
+.attendance-detail__date {
+    display: flex;
+    gap: 100px;
+    font-weight: 700;
+}
+
+.attendance-detail__table input[type="time"] {
+    width: 120px;
+    height: 40px;
+
+    text-align: center;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.attendance-detail__table td span {
+    margin: 0 20px;
+    font-weight: 700;
+}
+
+.attendance-detail__table textarea {
+    width: 300px;
+    height: 80px;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+    resize: none;
+}
+
+.attendance-detail__button-area {
+    margin-top: 40px;
+    text-align: right;
+}
+
+.attendance-detail__button-area button {
+    width: 130px;
+    height: 50px;
+
+    border: none;
+    border-radius: 5px;
+
+    background: #000;
+    color: #fff;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    cursor: pointer;
+}

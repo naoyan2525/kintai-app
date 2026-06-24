@@ -1,53 +1,45 @@
+body {
+    background: #f2f2f2;
+}
+
 .attendance {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
+    text-align: center;
+    margin-top: 180px;
 }
 
 .attendance__status {
-    background: #cfcfcf;
-    color: #696969;
+    display: inline-block;
+    padding: 6px 16px;
+    background: #d9d9d9;
+    color: #666;
     border-radius: 20px;
-    padding: 6px 18px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
 }
 
 .attendance__date {
-    margin-top: 30px;
-    font-size: 36px;
-    font-weight: 500;
+    margin-top: 40px;
+    font-size: 32px;
 }
 
 .attendance__time {
     margin-top: 10px;
-    margin-bottom: 40px;
     font-size: 72px;
     font-weight: bold;
 }
 
-.attendance__buttons {
-    display: flex;
-    gap: 30px;
+.attendance__actions {
+    margin-top: 50px;
 }
 
 .attendance__button {
-    width: 160px;
-    height: 55px;
+    width: 140px;
+    height: 50px;
     border: none;
-    border-radius: 10px;
+    border-radius: 6px;
+    background: #000;
+    color: #fff;
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
-}
-
-.attendance__button--black {
-    background: #000;
-    color: #fff;
-}
-
-.attendance__button--white {
-    background: #fff;
-    color: #000;
 }

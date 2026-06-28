@@ -1,0 +1,58 @@
+.detail {
+    max-width: 900px;
+    margin: 70px auto;
+}
+
+.detail__title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    border-left: 8px solid #000;
+}
+
+.detail__table {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.detail__row {
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.detail__row:last-child {
+    border-bottom: none;
+}
+
+.detail__label {
+    width: 200px;
+    padding-left: 40px;
+    color: #666;
+    font-weight: 700;
+}
+
+.detail__value {
+    flex: 1;
+    font-weight: 700;
+}
+
+.detail__date,
+.detail__time {
+    flex: 1;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.detail__message {
+    margin-top: 20px;
+    text-align: right;
+    color: #ff6b6b;
+    font-size: 14px;
+    font-weight: 700;
+}
